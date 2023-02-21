@@ -1,5 +1,4 @@
 html{
-    margin: 0 2rem;
     padding: 0;
     font-size: 16px;
     background-color: beige;
@@ -37,7 +36,7 @@ header nav ul li{
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.651);
     width: 50%;
-    margin: auto;
+    margin: 0 auto 3rem auto;
     display: flex;
 }
 .ProfilePicture{
@@ -63,3 +62,62 @@ header nav ul li{
     font-size: 1.25rem;
     line-height: 1.65rem;
 }
+.title{
+    margin: 2rem 0 2rem 3rem;
+    width: 100%;
+    font-size: 2rem;
+}
+#projects{
+    margin: auto;
+    margin-left: 0.5rem;
+}
+#projects .card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 325px;
+    height: 375px;
+    border: 0.2rem black solid;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: rgba(221, 221, 221, 0.651);
+}
+#projects .card img{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+#projects .tag{
+    color: white;
+    z-index: 9999;
+    background-color: midnightblue;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    border: 0.10rem whitesmoke solid;
+}
+
+#projects .card .nameproject{
+    display: flex;
+    margin: 252px auto 0px auto;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#projects .catalog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#projects .card .plus{
+    position: relative;
+}
+#projects .card .title2{
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
