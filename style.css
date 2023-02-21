@@ -83,6 +83,7 @@ header nav ul li{
     padding: 1rem;
     margin: 1rem auto;
     background-color: rgba(221, 221, 221, 0.651);
+    transition: 0.5s;
 }
 #projects .card img{
     position: absolute;
@@ -90,6 +91,16 @@ header nav ul li{
     width: 300px;
     height: 300px;
     border-radius: 100%;
+}
+.description{
+    position: absolute;
+    margin: 4.65rem auto 0 0.5rem;
+    color: white;
+    display: none;
+}
+.description a{
+    color: white;
+    text-decoration: underline;
 }
 #projects .tag{
     color: white;
